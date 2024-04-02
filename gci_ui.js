@@ -1243,6 +1243,7 @@ function setVariables( )
 			showOffset(true);
 			showDistancePrecision(true);
 		} else if( index==3 ){ // Distance along path
+			showOffset(true);
 			showDistancePrecision(true);
 		} else if( index==4 ){ // Distance along orthogonal directions
 			showNSOffset(true);
